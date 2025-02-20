@@ -40,7 +40,6 @@ https://vemseb45.github.io/Proyecto-Amigo-Secreto/
 📂 amigo-secreto
 │── 📄 index.html    # Interfaz principal de la aplicación
 │── 📄 styles.css    # Estilos para la interfaz
-│── 📄 script.js     # Lógica del programa
 └── 📄 README.md     # Documentación del proyecto
 ```
 
