@@ -1,4 +1,4 @@
-<em> # Sorteo amigo secreto </em>
+ 🎁 Amigo Secreto
 
 
 Este proyecto es una aplicación web que permite a los usuarios ingresar nombres en una lista y realizar un sorteo aleatorio para determinar quién es el "amigo secreto".
@@ -17,9 +17,9 @@ Este proyecto es una aplicación web que permite a los usuarios ingresar nombres
 
 ## 🛠️ Tecnologías utilizadas
 
-- HTML5
-- CSS3
-- JavaScript (vanilla)
+- HTML
+- CSS
+- JavaScript
 
 ## 🚀 Cómo ejecutar el proyecto
 
@@ -28,6 +28,11 @@ Este proyecto es una aplicación web que permite a los usuarios ingresar nombres
    git clone https://github.com/alura-es-cursos/js-curso-2.git
    ```
 2. Abre el archivo `index.html` en tu navegador.
+
+3. Puede entrar a la pagina web :
+```bash
+https://vemseb45.github.io/Proyecto-Amigo-Secreto/
+```
 
 ## 🖥️ Estructura del proyecto
 
@@ -40,4 +45,4 @@ Este proyecto es una aplicación web que permite a los usuarios ingresar nombres
 ```
 
 ## 📝 Autor
-Desarrollado por **Sebastian Camilo Sanchez Bejarano**. 😊
+Desarrollado por **Sebastian Sanchez**. 😊
