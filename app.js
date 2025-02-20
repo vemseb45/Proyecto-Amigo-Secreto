@@ -8,18 +8,30 @@ function agregarElementoLista(nombre) {
     return;
 }
 
+function borrarLista(){
+    document.querySelector("ul").innerHTML = ''; 
+    return;
+
+}
+
 function sortearAmigos() {
     if (listaAmigos.length === 0) {
         modificacionElemento('h2', 'No hay amigos para sortear');
         return;
     }
 
-    let indiceAleatorio = Math.floor(Math.random() * listaAmigos.length);
-    let amigoAleatorio = listaAmigos[indiceAleatorio];
+        let indiceAleatorio = Math.floor(Math.random()*listaAmigos.length);
+        let amigoAleatorio = listaAmigos[indiceAleatorio];
+        borrarLista();
+        // Selecciona el elemento donde mostrarás el nombre
+        let resultado = document.getElementById("resultado");
+        
+        resultado.textContent = `El amigo secreto es: ${amigoAleatorio}`;
+        listaAmigos=[]
+        
+    
 
-    // Selecciona el elemento donde mostrarás el nombre
-    let resultado = document.getElementById("resultado");
-    resultado.textContent = `El amigo secreto es: ${amigoAleatorio}`;
+   return;
 }
 
 
