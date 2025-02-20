@@ -31,7 +31,7 @@ Este proyecto es una aplicación web que permite a los usuarios ingresar nombres
 
 3. Puede entrar a la pagina web :
 ```bash
-https://vemseb45.github.io/Proyecto-Amigo-Secreto/
+   https://vemseb45.github.io/Proyecto-Amigo-Secreto/
 ```
 
 ## 🖥️ Estructura del proyecto
