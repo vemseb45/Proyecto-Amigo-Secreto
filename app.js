@@ -8,6 +8,21 @@ function agregarElementoLista(nombre) {
     return;
 }
 
+function sortearAmigos() {
+    if (listaAmigos.length === 0) {
+        modificacionElemento('h2', 'No hay amigos para sortear');
+        return;
+    }
+
+    let indiceAleatorio = Math.floor(Math.random() * listaAmigos.length);
+    let amigoAleatorio = listaAmigos[indiceAleatorio];
+
+    // Selecciona el elemento donde mostrarás el nombre
+    let resultado = document.getElementById("resultado");
+    resultado.textContent = `El amigo secreto es: ${amigoAleatorio}`;
+}
+
+
 
 function limpiarInput(){
     document.querySelector('#amigo').value= ''; 
