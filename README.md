@@ -29,10 +29,10 @@ Este proyecto es una aplicación web que permite a los usuarios ingresar nombres
    ```
 2. Abre el archivo `index.html` en tu navegador.
 
-3. Puede entrar a la pagina web :
-```bash
+3. Descarga o clona el repositorio:
+   ```bash
    https://vemseb45.github.io/Proyecto-Amigo-Secreto/
-```
+   ```
 
 ## 🖥️ Estructura del proyecto
 
