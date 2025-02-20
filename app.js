@@ -8,13 +8,13 @@ function agregarElementoLista(nombre) {
     return;
 }
 
-function borrarLista(){
+function borrarLista(){//esta funcion borra la lista en la etiqueta ul
     document.querySelector("ul").innerHTML = ''; 
     return;
 
 }
 
-function sortearAmigos() {
+function sortearAmigos() {//evalua si la lista esta vacia y sortea el amigo 
     if (listaAmigos.length === 0) {
         modificacionElemento('h2', 'No hay amigos para sortear');
         return;
@@ -22,12 +22,11 @@ function sortearAmigos() {
 
         let indiceAleatorio = Math.floor(Math.random()*listaAmigos.length);
         let amigoAleatorio = listaAmigos[indiceAleatorio];
-        borrarLista();
-        // Selecciona el elemento donde mostrarás el nombre
+        borrarLista();//borra lista de amigos agregados 
         let resultado = document.getElementById("resultado");
         
         resultado.textContent = `El amigo secreto es: ${amigoAleatorio}`;
-        listaAmigos=[]
+        listaAmigos=[];//se reinicia la lista 
         
     
 
@@ -36,7 +35,7 @@ function sortearAmigos() {
 
 
 
-function limpiarInput(){
+function limpiarInput(){//limpia el input cuando se agrega un amigo
     document.querySelector('#amigo').value= ''; 
     return;
 }
